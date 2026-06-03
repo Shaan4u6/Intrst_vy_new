@@ -19,7 +19,7 @@ export default function LandingPage() {
         </div>
         <nav className="flex items-center gap-3">
           <Link href="/signup">
-            <Button variant="ghost" className="hidden sm:inline-flex text-muted-foreground hover:text-white">Sign In</Button>
+            <Button variant="ghost" className="hidden sm:inline-flex text-muted-foreground hover:text-white">Sign Up</Button>
           </Link>
           <Link href="/discover">
             <Button className="bg-brand hover:opacity-90 text-white font-semibold rounded-xl px-6">Find My People</Button>
@@ -51,7 +51,7 @@ export default function LandingPage() {
                 Discover My Vibe →
               </Button>
             </Link>
-            <Link href="/signup">
+            <Link href="/signin">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-brand border-brand/30 hover:bg-brand/10 text-lg px-8 h-14 rounded-xl bg-transparent">
                 Already have an account
               </Button>
